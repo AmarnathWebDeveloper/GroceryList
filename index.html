@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://pnghq.com/wp-content/uploads/grocery-items-png-free-png-images-download-50769.png" alt="GI">
+        <h1>Grocery List ( సరుకుల చిట్టా )</h1>
+    </header>
+    <form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Flours & Grains</th>
+                    <th>Spices</th>
+                    <th>Food Items</th>
+                    <th>Beverages</th>
+                    <th>Household Items</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Riceflour" id="Riceflour" data-label="బియ్యం పిండి">
+                            <label for="Riceflour">బియ్యం పిండి</label>
+                            <input type="text" name="Riceflour" id="Riceflour" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Jeera" id="Jeera" data-label="జీలకర్ర">
+                            <label for="Jeera">జీలకర్ర</label>
+                            <input type="text" name="Jeera" id="Jeera" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Parota" id="Parota" data-label="పరోటా">
+                            <label for="Parota">పరోటా</label>
+                            <input type="text" name="Parota" id="Parota" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Sprite" id="Sprite" data-label="స్ప్రైట్">
+                            <label for="Sprite">స్ప్రైట్</label>
+                            <input type="text" name="Sprite" id="Sprite" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Broom" id="Broom" data-label="చిపిరి">
+                            <label for="Broom">చిపిరి</label>
+                            <input type="text" name="Broom" id="Broom" readonly>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Jowar" id="Jowar" data-label="జొన్నలు">
+                            <label for="Jowar">జొన్నలు</label>
+                            <input type="text" name="Jowar" id="Jowar" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Redchilli" id="Redchilli" data-label="ఎండు మిరపకాయలు">
+                            <label for="Redchilli">ఎండు మిరపకాయలు</label>
+                            <input type="text" name="Redchilli" id="Redchilli" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Chapati" id="Chapati" data-label="చపాతీ">
+                            <label for="Chapati">చపాతీ</label>
+                            <input type="text" name="Chapati" id="Chapati" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Glucose" id="Glucose" data-label="గ్లూకోజ్">
+                            <label for="Glucose">గ్లూకోజ్</label>
+                            <input type="text" name="Glucose" id="Glucose" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Wowshampoo" id="Wowshampoo" data-label="వావ్ షాంపూ">
+                            <label for="Wowshampoo">వావ్ షాంపూ</label>
+                            <input type="text" name="Wowshampoo" id="Wowshampoo" readonly>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Wheatsugarcoatedrava" id="Wheatsugarcoatedrava"
+                                data-label="గోధుమ పిండి">
+                            <label for="Wheatsugarcoatedrava">గోధుమ పిండి</label>
+                            <input type="text" name="Wheatsugarcoatedrava" id="Wheatsugarcoatedrava" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Menthulu" id="Menthulu" data-label="మెంతులు">
+                            <label for="Menthulu">మెంతులు</label>
+                            <input type="text" name="Menthulu" id="Menthulu" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Frenchfries" id="Frenchfries" data-label="ఫ్రెంచ్ ఫ్రైస్">
+                            <label for="Frenchfries">ఫ్రెంచ్ ఫ్రైస్</label>
+                            <input type="text" name="Frenchfries" id="Frenchfries" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Indica" id="Indica" data-label="ఇండికా బ్లాక్">
+                            <label for="Indica">ఇండికా బ్లాక్</label>
+                            <input type="text" name="Indica" id="Indica" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="CelloButterflow" id="CelloButterflow"
+                                data-label="సెలో బట్టర్ ఫ్లో పెన్">
+                            <label for="CelloButterflow">సెలో బట్టర్ ఫ్లో పెన్</label>
+                            <input type="text" name="CelloButterflow" id="CelloButterflow" readonly>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Bombayrava" id="Bombayrava" data-label="బొంబాయి రవ్వ">
+                            <label for="Bombayrava">బొంబాయి రవ్వ</label>
+                            <input type="text" name="Bombayrava" id="Bombayrava" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Fennel" id="Fennel" data-label="సోపు">
+                            <label for="Fennel">సోపు</label>
+                            <input type="text" name="Fennel" id="Fennel" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Vermicelli" id="Vermicelli" data-label="సేమియా">
+                            <label for="Vermicelli">సేమియా</label>
+                            <input type="text" name="Vermicelli" id="Vermicelli" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Dovesoap" id="Dovesoap" data-label="డోవ్ సబ్బు">
+                            <label for="Dovesoap">డోవ్ సబ్బు</label>
+                            <input type="text" name="Dovesoap" id="Dovesoap" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Pitambari" id="Pitambari" data-label="పీతాంబర">
+                            <label for="Pitambari">పీతాంబర</label>
+                            <input type="text" name="Pitambari" id="Pitambari" readonly>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Idlyrava" id="Idlyrava" data-label="ఇడ్లీ రవ్వ">
+                            <label for="Idlyrava">ఇడ్లీ రవ్వ</label>
+                            <input type="text" name="Idlyrava" id="Idlyrava" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Miriyalu" id="Miriyalu" data-label="మిరియాలు">
+                            <label for="Miriyalu">మిరియాలు</label>
+                            <input type="text" name="Miriyalu" id="Miriyalu" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Biryani" id="Biryani" data-label="బిర్యానీ సామాలు">
+                            <label for="Biryani">బిర్యానీ సామాలు</label>
+                            <input type="text" name="Biryani" id="Biryani" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Bellamu" id="Bellamu" data-label="బెల్లము">
+                            <label for="Bellamu">బెల్లము</label>
+                            <input type="text" name="Bellamu" id="Bellamu" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Honey" id="Honey" data-label="తేనె">
+                            <label for="Honey">తేనె</label>
+                            <input type="text" name="Honey" id="Honey" readonly>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Atukulu" id="Atukulu" data-label="అటుకులు">
+                            <label for="Atukulu">అటుకులు</label>
+                            <input type="text" name="Atukulu" id="Atukulu" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Dhaniyalu" id="Dhaniyalu" data-label="ధనియాలు">
+                            <label for="Dhaniyalu">ధనియాలు</label>
+                            <input type="text" name="Dhaniyalu" id="Dhaniyalu" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Tamarind" id="Tamarind" data-label="చింతపండు">
+                            <label for="Tamarind">చింతపండు</label>
+                            <input type="text" name="Tamarind" id="Tamarind" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Rice" id="Rice" data-label="బియ్యం">
+                            <label for="Rice">బియ్యం</label>
+                            <input type="text" name="Rice" id="Rice" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Poha" id="Poha" data-label="పోహ">
+                            <label for="Poha">పోహ</label>
+                            <input type="text" name="Poha" id="Poha" readonly>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Ragi" id="Ragi" data-label="రాగి పిండి">
+                            <label for="Ragi">రాగి పిండి</label>
+                            <input type="text" name="Ragi" id="Ragi" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Kismis" id="Kismis" data-label="కిస్‌మిస్">
+                            <label for="Kismis">కిస్‌మిస్</label>
+                            <input type="text" name="Kismis" id="Kismis" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Cashewnuts" id="Cashewnuts" data-label="జీడిపప్పు">
+                            <label for="Cashewnuts">జీడిపప్పు</label>
+                            <input type="text" name="Cashewnuts" id="Cashewnuts" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Ketchup" id="Ketchup" data-label="కెచప్">
+                            <label for="Ketchup">కెచప్</label>
+                            <input type="text" name="Ketchup" id="Ketchup" readonly>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item">
+                            <input type="checkbox" name="Gilletteblade" id="Gilletteblade" data-label="జిల్లెట్ బ్లేడ్">
+                            <label for="Gilletteblade">జిల్లెట్ బ్లేడ్</label>
+                            <input type="text" name="Gilletteblade" id="Gilletteblade" readonly>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="button-center">
+            <button type="submit">Download</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+    <div class="keypad">
+        <div class="key" data-value="1">1</div>
+        <div class="key" data-value="2">2</div>
+        <div class="key" data-value="3">3</div>
+        <div class="key" data-value="4">4</div>
+        <div class="key" data-value="5">5</div>
+        <div class="key" data-value="6">6</div>
+        <div class="key" data-value="7">7</div>
+        <div class="key" data-value="8">8</div>
+        <div class="key" data-value="9">9</div>
+        <div class="key" data-value="0">0</div>
+        <div class="key" data-value="Kg">Kg</div>
+        <div class="key" data-value="g">g</div>
+        <div class="key" data-value="pac">pac</div>
+        <div class="key" data-value="bottles">bottles</div>
+        <div class="delete">Delete</div>
+        <div class="clear">Clear</div>
+    </div>
+    <script src="./JScript.js"></script>
+</body>
+</html>
